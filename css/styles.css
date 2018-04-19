@@ -1,0 +1,95 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:99%;
+    font-family: Arial;
+    text-shadow: 1px 1px 1px #2E2E2E;
+}
+
+#wrapper{
+    height:100%;
+}
+
+#header{
+    width: 100%;
+    background:#ffab62;
+    height: 40px;
+    padding: 20px 0;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#footer{
+    background:#ffab62;
+    width:100%;
+    height:110px;
+}
+
+#footer table{
+    width: 100%;
+    height: 100%;
+}
+
+#footer table tr td{
+    padding: 10px;
+}
+
+#footer table tr td input{
+    width: 100%;
+    height: 85px;
+    padding: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    border:1px solid #A4A4A4;
+    color: #585858;
+}
+
+#footer table tr td input[type=submit]{
+    cursor: pointer;
+    background-color: #0174DF;
+    color: #FFFFFF;
+}
+
+#footer table tr td input[type=submit]:hover{
+    background-color: #2E9AFE;
+}
+
+ul{
+    padding: 0 10px;
+    margin: 0;
+}
+
+#containerMessages{
+    overflow-y: scroll;
+    height: calc(100vh - 190px);
+    width: 100%;
+}
+
+#containerMessages div {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-top: 2px;
+    margin-bottom: 18px;
+    height: 18px;
+    clear: both;
+}
+
+#containerMessages div:last-child{
+    margin-bottom: 4px;
+}
+
+.meMessage{
+    float: right;
+    background-color: #FFFF00;
+    color: #585858;
+}
+
+.yourMessage{
+    float: left;
+    background-color: gray;
+    color: white;
+}
